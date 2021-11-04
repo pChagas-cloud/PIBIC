@@ -1,0 +1,26 @@
+Os perceptrons se destacam em problemas que são clusterizados de maneira linear
+
+Problemas em  que, em um gráfico, é possível separar as classes a serem identificadas
+ 
+				
+		|       /
+		|      /
+	   y	|     /	    x			
+	  y  y 	| y  /	x
+	   y	| y /	    x	x
+	      y	|  /  x  x
+		| /	x  x
+		|/
+-----------------------------------
+
+Parametros e inputs: 
+
+Os parametros necessários para usar um perceptron são:
+	
+	1 - "w" -> Weights
+	2 - "n" -> Learning rate
+	3 - bias -> Será somado com os Weights para poder refinar os resultados
+Inputs:
+	1 - X -> X1
+	2 - Y -> X2
+
